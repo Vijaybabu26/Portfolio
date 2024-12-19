@@ -24,7 +24,7 @@
     <!--mouse  follower-->
     <!--loader-->
         <div id="loader">
-            <span class="color">Vijay Babu</span>Ponnada 
+            <span class="color">Arlo</span>Brown 
         </div>
     <!--loader-end-->
     <!--link-screen-->
@@ -550,7 +550,7 @@
         <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
         <div class="contact-content">
             <!--Contact form-->
-             <div class="contact-form">
+             <!-- <div class="contact-form">
                  <div class="form-header">
                      Message Me
                  </div>
@@ -564,7 +564,24 @@
                     <button type="button" id ="submit" value="send">Submit</button>
                  </form>
                
-             </div>
+             </div> -->
+             <div class="contact-form">
+                <div class="form-header">
+                    Message Me
+                </div>
+                <form id="myForm" action="https://formsubmit.co/vijaybabuponnada1@gmail.com" method="POST">
+                    <div class="input-line">
+                        <input id="name" type="text" placeholder="Name" name="name" class="input-name" required>
+                        <input id="email" type="email" placeholder="Email" name="email" class="input-name" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Subject" name="subject" class="input-subject" required>
+                    <textarea id="body" class="input-textarea" placeholder="Message" name="message" required></textarea>
+                    <!-- You can also add a hidden field to prevent spam -->
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you-page.html">
+                    <button type="submit" id="submit" value="send">Submit</button>
+                </form>
+            </div>
+            
             <!--Contact form-->
             <!--Contact information-->
              <div class="contact-info">
